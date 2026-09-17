@@ -25,7 +25,7 @@ const Navbar = () => {
             HOME
         </NavLink>
         <NavLink to={'/doctors'} className={({isActive}) => `px-6 py-2.5 rounded-full text-sm font-medium transition-all duration-300 ${isActive ? 'bg-white shadow-md text-primary' : 'text-gray-600 hover:text-black'}`}>
-            DOCTORS
+           ALL DOCTORS
         </NavLink>
         <NavLink to={'/about'} className={({isActive}) => `px-6 py-2.5 rounded-full text-sm font-medium transition-all duration-300 ${isActive ? 'bg-white shadow-md text-primary' : 'text-gray-600 hover:text-black'}`}>
             ABOUT
